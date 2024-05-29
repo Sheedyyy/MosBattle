@@ -1,0 +1,2 @@
+insert into playerdata  (pla_nome,pla_hp, pla_score, pla_id) value ("sergos", 100, 0, 1);
+insert into playerdata  (pla_nome,pla_hp, pla_score, pla_id) value ("sigrid", 100, 0, 2);

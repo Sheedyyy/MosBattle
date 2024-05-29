@@ -1,0 +1,15 @@
+{
+    "server":
+    {
+        "port": 8081,
+        "host": "http://localhost"
+    },
+
+    "database":
+    {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "mbattleground"
+    }
+}

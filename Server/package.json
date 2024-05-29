@@ -1,0 +1,16 @@
+{
+  "name": "monsters_battleground",
+  "version": "1.0.0",
+  "description": "Um jogo de historia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andre, Hugo, Marta, Antonio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "handlebars": "^4.7.8",
+    "mysql2": "^3.9.7"
+  }
+}

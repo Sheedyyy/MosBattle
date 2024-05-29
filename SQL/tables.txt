@@ -1,0 +1,7 @@
+create table playerdata(
+				pla_id int not null auto_increment,
+                pla_nome varchar (50) not null,
+                pla_hp float not null,
+                pla_score int not null,
+				primary key (pla_id)
+);
