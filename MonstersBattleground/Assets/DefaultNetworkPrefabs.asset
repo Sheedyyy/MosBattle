@@ -13,4 +13,13 @@ MonoBehaviour:
   m_Name: DefaultNetworkPrefabs
   m_EditorClassIdentifier: 
   IsDefault: 1
+<<<<<<< Updated upstream
+  List:
+  - Override: 0
+    Prefab: {fileID: 2853528748966165061, guid: ddd62d621854152458e5315a1ba6e180, type: 3}
+    SourcePrefabToOverride: {fileID: 0}
+    SourceHashToOverride: 0
+    OverridingTargetPrefab: {fileID: 0}
+=======
   List: []
+>>>>>>> Stashed changes
