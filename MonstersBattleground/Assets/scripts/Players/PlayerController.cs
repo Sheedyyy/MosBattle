@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 
 
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Movimentação da camera do player")]
     [SerializeField] private float _lookSenesitivity;
+    [SerializeField] private Slider _lookSensitivitySlider;
 
     private Vector2 lookVector;
     private Vector3 rotation;
@@ -75,6 +77,7 @@ public class PlayerController : MonoBehaviour
 
         rotation.y += lookVector.x * _lookSenesitivity * Time.deltaTime;
         transform.localEulerAngles = rotation;
+        _lookSenesitivity = _lookSensitivitySlider.value;
     }
 
     public void OnJump(InputAction.CallbackContext context)
