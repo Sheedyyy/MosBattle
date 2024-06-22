@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class EnemySpawn : MonoBehaviour
 {
-    [SerializeField] private GameObject Enemy;
-    [SerializeField] private int Xpos;
-    [SerializeField] private int Zpos;
-    [SerializeField] private int enemyCount;
-    void Start()
+    [SerializeField] private GameObject inimigoPrefab;
+    private int Xpos;
+    private int Zpos;
+    private int enemyCount;
+
+    private void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(SpawnEnemy());
+        if (other.gameObject.CompareTag("Player"))
+        {
+            StartCoroutine(SpawnEnemy());
+        }
     }
 
     IEnumerator SpawnEnemy()
@@ -18,12 +22,11 @@ public class EnemySpawn : MonoBehaviour
         while (enemyCount < 10)
         {
             Xpos = Random.Range(63, 102);
-            Zpos = Random.Range(-245,-227);
-            Instantiate(Enemy, new Vector3(Xpos, 3, Zpos), Quaternion.identity);
+            Zpos = Random.Range(-245, -227);
+            Instantiate(inimigoPrefab, new Vector3(Xpos, 3, Zpos), Quaternion.identity);
             yield return new WaitForSeconds(0.1f);
-            enemyCount += 1;
+            enemyCount++;
         }
     }
-
     
 }

@@ -1,0 +1,176 @@
+newmtl Union45Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.027838 0.0274636 0.028595 
+
+d 1
+
+Ns 0
+
+map_Ka Union45_diff.png
+map_Kd Union45_diff.png
+map_d Union45_diff.png
+
+map_Bump Union45_nmap.png
+
+map_Ns Union45_spec.png
+
+newmtl Union3Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Union3_diff.png
+map_Kd Union3_diff.png
+map_d Union3_diff.png
+
+newmtl Union9Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0234425 0.0231273 0.02408 
+
+d 1
+
+Ns 0
+
+newmtl Union1Mtl
+Material Color
+Ka 0.940601 0.940601 0.940601
+Kd 0.940601 0.940601 0.940601
+Ks 0.029509 0.029509 0.029509 
+
+d 1
+
+Ns 0
+
+map_Ka Union1_diff.png
+map_Kd Union1_diff.png
+map_d Union1_diff.png
+
+map_Bump Union1_nmap.png
+
+map_Ns Union1_spec.png
+
+newmtl Union16Mtl
+Material Color
+Ka 0.20471 0.106156 0.0581872
+Kd 0.20471 0.106156 0.0581872
+Ks 0.011239 0.00582818 0.00319459 
+
+d 1
+
+Ns 0
+
+map_Ka Union16_diff.png
+map_Kd Union16_diff.png
+map_d Union16_diff.png
+
+map_Bump Union16_nmap.png
+
+map_Ns Union16_spec.png
+
+newmtl Union2Mtl
+Material Color
+Ka 0.511398 0.334458 0.108711
+Kd 0.511398 0.334458 0.108711
+Ks 0.0320877 0.0209856 0.00682109 
+
+d 1
+
+Ns 0
+
+newmtl Union17Mtl
+Material Color
+Ka 0.579547 0.420508 0.190463
+Kd 0.579547 0.420508 0.190463
+Ks 0.0363637 0.0263848 0.0119506 
+
+d 1
+
+Ns 0
+
+newmtl Part11Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0293031 0.0289091 0.0301 
+
+d 1
+
+Ns 255
+
+map_Ka Part11_diff.png
+map_Kd Part11_diff.png
+map_d Part11_diff.png
+
+map_Bump Part11_nmap.png
+
+map_Ns Part11_spec.png
+
+newmtl Part12Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0784314 0.0784314 0.0784314 
+
+d 1
+
+Ns 255
+
+map_Ka Part12_diff.png
+map_Kd Part12_diff.png
+map_d Part12_diff.png
+
+newmtl Part26Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Part12_diff.png
+map_Kd Part12_diff.png
+map_d Part12_diff.png
+
+newmtl Sino1Mtl
+Material Color
+Ka 0.940601 0.701169 0.154152
+Kd 0.940601 0.701169 0.154152
+Ks 0.627067 0.467446 0.102768 
+
+d 1
+
+Ns 255
+
+map_Ka Sino1_diff.png
+map_Kd Sino1_diff.png
+map_d Sino1_diff.png
+
+map_Bump Sino1_nmap.png
+
+map_Ns Sino1_spec.png
+
+newmtl Sino2Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.666667 0.666667 0.666667 
+
+d 1
+
+Ns 255
+
+map_Ka Union3_diff.png
+map_Kd Union3_diff.png
+map_d Union3_diff.png
+
