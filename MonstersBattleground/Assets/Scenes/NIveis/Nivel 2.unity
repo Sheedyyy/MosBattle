@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2993,7 +2993,7 @@ Transform:
   m_GameObject: {fileID: 1394506138}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.8038362, z: -0, w: 0.5948508}
-  m_LocalPosition: {x: -6.076001, y: 5.0239997, z: 12.988001}
+  m_LocalPosition: {x: 2.86, y: 0.86, z: -0.07}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3447,7 +3447,7 @@ GameObject:
   - component: {fileID: 1623586169}
   - component: {fileID: 1623586168}
   - component: {fileID: 1623586173}
-  - component: {fileID: 1623586172}
+  - component: {fileID: 1623586174}
   m_Layer: 0
   m_Name: PlayerTeste
   m_TagString: Player
@@ -3544,19 +3544,6 @@ Transform:
   - {fileID: 1394506141}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1623586172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623586167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c151b6e802f9fa145bd67d54185e5cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerSpeed: 5
 --- !u!143 &1623586173
 CharacterController:
   m_ObjectHideFlags: 0
@@ -3583,6 +3570,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1623586174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623586167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c151b6e802f9fa145bd67d54185e5cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 10
 --- !u!1001 &1635297729
 PrefabInstance:
   m_ObjectHideFlags: 0
