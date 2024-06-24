@@ -2,11 +2,16 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using Unity.Netcode;
 
 
 
 public class PlayerController : MonoBehaviour
 {
+    #region Variaveis
+
+
+
     [Header("Chamada dos scriptableObejects")]
     [SerializeField] private PlayerStatus _playerStatus;
 
@@ -25,7 +30,9 @@ public class PlayerController : MonoBehaviour
     [Header("Animações do player")]
     private Animator animator;
 
+    #endregion
 
+    #region Propriedades
 
     void Start()
     {
@@ -38,6 +45,10 @@ public class PlayerController : MonoBehaviour
         Move();
         Rotate();
     }
+
+    #endregion
+
+    #region Movimento do player
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -67,6 +78,10 @@ public class PlayerController : MonoBehaviour
         characterController.Move(move * _playerStatus.Speed * Time.deltaTime);
     }
 
+    #endregion
+
+    #region Rotação da camera do player
+
     public void OnLook(InputAction.CallbackContext context)
     {
         lookVector = context.ReadValue<Vector2>();
@@ -79,6 +94,10 @@ public class PlayerController : MonoBehaviour
         transform.localEulerAngles = rotation;
         _lookSenesitivity = _lookSensitivitySlider.value;
     }
+
+    #endregion
+
+    #region Salto do player
 
     public void OnJump(InputAction.CallbackContext context)
     {
@@ -93,4 +112,6 @@ public class PlayerController : MonoBehaviour
     {
         _playerStatus.VerticalVelocity = Mathf.Sqrt(_playerStatus.JumpHeight * _playerStatus.Gravity);
     }
+
+    #endregion
 }
