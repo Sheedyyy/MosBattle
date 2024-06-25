@@ -1,28 +1,97 @@
+using Unity.Netcode;
+using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovent : MonoBehaviour
+
+public class PlayerMovement : NetworkBehaviour
 {
-    [SerializeField] private float speed;
+    #region variaveis
 
-    private Vector2 _input;
-    private Vector3 _direction;
-    private CharacterController _characterController;
+    [Header("ScriptableObjects")]
+    [SerializeField]private PlayerStatus _playerStatus;
 
+    private NetworkVariable<int> randomNumber = new NetworkVariable<int>(1, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
 
-    void Start()
+    #endregion
+
+    #region Spawn do player
+
+    public override void OnNetworkSpawn()
     {
-        _characterController = GetComponent<CharacterController>();//busca o componente CharacterController
-    }
-    void Update()
-    {
-        _characterController.Move(_direction * speed * Time.deltaTime); //move o player
+        base.OnNetworkSpawn();
+        Debug.Log($"Player spawned: {OwnerClientId}");
+        randomNumber.OnValueChanged += OnValueChanged;
     }
 
-
-    public void Move(InputAction.CallbackContext context)
+    private void OnValueChanged(int previousValue, int newValue)
     {
-        _input = context.ReadValue<Vector2>(); //pega o valor do input
-        _direction = new Vector3(_input.x, 0, _input.y); //define a direção do player
+        Debug.Log($"{OwnerClientId}; randomNumber: {randomNumber.Value}");
     }
+    private void Update()
+    {
+
+        UpdateMovement();
+    }
+
+    #endregion
+
+    #region Movimentação do player
+
+    
+
+    private void UpdateMovement()
+    {
+        Vector3 moveDirection = Vector3.zero;
+        Quaternion rotationMovement = Quaternion.identity;
+
+        if (Input.GetKey(KeyCode.W)) { moveDirection.z = _playerStatus.MoveDirectionValue; }
+        if (Input.GetKey(KeyCode.S)) { moveDirection.z = -_playerStatus.MoveDirectionValue; }
+        if (Input.GetKey(KeyCode.A)) { moveDirection.z = -_playerStatus.MoveDirectionValue; }
+        if (Input.GetKey(KeyCode.D)) { moveDirection.z = _playerStatus.MoveDirectionValue; }
+
+        transform.position += moveDirection * _playerStatus.MoveSpeed * Time.deltaTime;
+        transform.Rotate(Vector3.up, rotationMovement.y * _playerStatus.RotationSpeed * Time.deltaTime);
+    }
+
+    private void UpdateMovementServerAuth()
+    {
+        Vector3 moveDirection = Vector3.zero;
+        Quaternion rotationMovement = Quaternion.identity;
+
+        if (Input.GetKey(KeyCode.W)) { moveDirection.z = _playerStatus.MoveDirectionValue; }
+        if (Input.GetKey(KeyCode.S)) { moveDirection.z = -_playerStatus.MoveDirectionValue; }
+        if (Input.GetKey(KeyCode.A)) { moveDirection.z = -_playerStatus.MoveDirectionValue; }
+        if (Input.GetKey(KeyCode.D)) { moveDirection.z = _playerStatus.MoveDirectionValue; }
+
+        UpdateMovementServerRpc(moveDirection, rotationMovement);
+    }
+
+    #endregion
+
+    #region RPCs
+
+    [ServerRpc]
+
+    public void TesteServerRpc(string message)
+    {
+        Debug.Log($"TesteServerRpc: {OwnerClientId}; Message: {message}");
+    }
+    [ClientRpc]
+
+    public void TesteClientRpc()
+    {
+        Debug.Log($"TesteClientRpc");
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+
+    public void UpdateMovementServerRpc(Vector3 moveDirection, Quaternion rotationMovement)
+    {
+        transform.position += moveDirection * _playerStatus.MoveSpeed * Time.deltaTime;
+        transform.Rotate(Vector3.up, rotationMovement.y * _playerStatus.RotationSpeed * Time.deltaTime);
+    }
+
+    #endregion
+
 }
