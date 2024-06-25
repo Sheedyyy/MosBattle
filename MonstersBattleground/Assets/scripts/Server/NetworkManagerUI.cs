@@ -3,18 +3,30 @@ using UnityEngine;
 
 public class NetworkManagerUI : MonoBehaviour
 {
+    #region Server
+
     public void StartServer()
     {
-        NetworkManager.Singleton.StartServer();//inicia o servidor
+        NetworkManager.Singleton.StartServer();
     }
 
-    public void StartHost()
-    {
-        NetworkManager.Singleton.StartHost(); //inicia o host
-    }
+    #endregion
+
+    #region Client
 
     public void StartClient()
     {
-        NetworkManager.Singleton.StartClient(); //inicia o cliente
+        NetworkManager.Singleton.StartClient();
     }
+
+    #endregion
+
+    #region Host
+
+    public void StartHost()
+    {
+        NetworkManager.Singleton.StartHost();
+    }
+
+    #endregion
 }

@@ -1,0 +1,18 @@
+newmtl Caminho1Mtl
+Material Color
+Ka 0.0915184 0.0511221 0.0328759
+Kd 0.0915184 0.0511221 0.0328759
+Ks 0.00287116 0.00160383 0.0010314 
+
+d 1
+
+Ns 0
+
+map_Ka Caminho1_diff.png
+map_Kd Caminho1_diff.png
+map_d Caminho1_diff.png
+
+map_Bump Caminho1_nmap.png
+
+map_Ns Caminho1_spec.png
+

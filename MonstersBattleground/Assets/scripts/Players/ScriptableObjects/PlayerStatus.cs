@@ -4,52 +4,50 @@ using UnityEngine;
 
 public class PlayerStatus : ScriptableObject
 {
-    [Header("Velocidade do player")]
-    [SerializeField] private float _speed;
-    [SerializeField] private float _verticalVelocity;
-    [SerializeField] private float _sprint;
+    #region Variaveis
 
-    [Header("Salto do player")]
+    [Header("Velocidade do player")]
+    [SerializeField] private float _moveSpeed;
+    [SerializeField] private float _moveDirectionValue;
+    [SerializeField] private float _rotationSpeed;
+    [SerializeField] private float _rotationAngle;
+
+
+    /*[Header("Salto do player")]
     [SerializeField] private float _jumpHeight;
     [SerializeField] private float _gravity;
 
     [Header("Ataque do player")]
-    [SerializeField] private int _attack;
+    [SerializeField] private int _attack;*/
 
-    public float Speed
+    #endregion
+
+    #region Getters and Setters
+
+    public float MoveSpeed
     {
-        get => _speed;
-        set => _speed = value;
+        get => _moveSpeed;
+        set => _moveSpeed = value;
     }
 
-    public float VerticalVelocity
+    public float MoveDirectionValue
     {
-        get => _verticalVelocity;
-        set => _verticalVelocity = value;
+        get => _moveDirectionValue;
+        set => _moveDirectionValue = value;
     }
 
-    public float Sprint
+    public float RotationSpeed
     {
-        get => _sprint;
-        set => _sprint = value;
+        get => _rotationSpeed;
+        set => _rotationSpeed = value;
     }
 
-
-    public float JumpHeight
+    public float RotationAngle
     {
-        get => _jumpHeight;
-        set => _jumpHeight = value;
+        get => _rotationAngle;
+        set => _rotationAngle = value;
     }
+    
 
-    public float Gravity
-    {
-        get => _gravity;
-        set => _gravity = value;
-    }
-
-    public int Attack
-    {
-        get => _attack;
-        set => _attack = value;
-    }
+    #endregion
 }
