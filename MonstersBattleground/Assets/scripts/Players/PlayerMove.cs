@@ -1,8 +1,5 @@
 using Unity.Netcode;
-using UnityEditor.VersionControl;
 using UnityEngine;
-using UnityEngine.InputSystem;
-
 
 public class PlayerMovement : NetworkBehaviour
 {
@@ -37,8 +34,6 @@ public class PlayerMovement : NetworkBehaviour
     #endregion
 
     #region Movimentação do player
-
-    
 
     private void UpdateMovement()
     {

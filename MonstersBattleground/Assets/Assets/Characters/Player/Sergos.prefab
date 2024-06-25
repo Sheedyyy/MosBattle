@@ -1377,7 +1377,7 @@ GameObject:
   - component: {fileID: -4935049791096604639}
   m_Layer: 0
   m_Name: Sergos
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1391,7 +1391,7 @@ Transform:
   m_GameObject: {fileID: 7952370287655128962}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32.637405, y: 12.01, z: 23.661606}
+  m_LocalPosition: {x: 147.59, y: 0, z: -233.17}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children:
