@@ -27,6 +27,10 @@ public class CharacterMovement : NetworkBehaviour
         HandleMovement();
     }
 
+    public bool IsWalking()
+    {
+        return isWalking;
+    }
     private void HandleMovement()
     {
         

@@ -1,17 +1,22 @@
 using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Unity.Netcode;
 
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : NetworkBehaviour
 {
- 
+
+    #region Variables
+
     [Header("Chamada dos scriptableObejects")]
     [SerializeField] private PlayerStatus _playerStatus;
+    [SerializeField]private InputPlayer inputPlayer;
 
     [Header("Movimentação do player")]
     private Vector2 moveVector;
     private CharacterController characterController;
+    private bool isSprinting = false;
 
 
     [Header("Movimentação da camera do player")]
@@ -21,15 +26,19 @@ public class PlayerController : MonoBehaviour
     private Vector2 lookVector;
     private Vector3 rotation;
 
-    [Header("Animações do player")]
-    private Animator animator;
+    // [Header("Animações do player")]
+    // private Animator animator;
+    #endregion
 
-
+    #region Movimentação do player
 
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
+
+        inputPlayer.FindAction("SprintStart").started += ctx => StartSprinting();
+        inputPlayer.FindAction("SprintFinish").canceled += ctx => StopSprinting();
     }
 
     void Update()
@@ -38,18 +47,20 @@ public class PlayerController : MonoBehaviour
         Rotate();
     }
 
+    
+
     public void OnMove(InputAction.CallbackContext context)
     {
         moveVector = context.ReadValue<Vector2>();
 
-        if (moveVector.magnitude > 0)
+       /* if (moveVector.magnitude > 0)
         {
             animator.SetBool("isWalking", true);
         }
         else
         {
             animator.SetBool("isWalking", false);
-        }
+        }*/
 
     }
 
@@ -66,6 +77,20 @@ public class PlayerController : MonoBehaviour
         characterController.Move(move * _playerStatus.MoveSpeed * Time.deltaTime);
     }
 
+    private void StartSprinting()
+    {
+        isSprinting = true;
+  
+    }
+
+    private void StopSprinting()
+    {
+        isSprinting = false;
+    }
+
+    #endregion
+
+    #region Movimentação da camera do player
     public void OnLook(InputAction.CallbackContext context)
     {
         lookVector = context.ReadValue<Vector2>();
@@ -78,13 +103,15 @@ public class PlayerController : MonoBehaviour
         transform.localEulerAngles = rotation;
         _lookSenesitivity = _lookSensitivitySlider.value;
     }
+    #endregion
 
+    #region Salto do player
     public void OnJump(InputAction.CallbackContext context)
     {
         if (characterController.isGrounded && context.performed)
         {
-            animator.Play("Jump");
-            //Jump();
+            //animator.Play("Jump");
+            Jump();
         }
     }
 
@@ -92,5 +119,7 @@ public class PlayerController : MonoBehaviour
     {
         _playerStatus.VerticalVelocity = Mathf.Sqrt(_playerStatus.JumpHeight * _playerStatus.Gravity);
     }
+    #endregion
+
 }
 
