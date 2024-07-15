@@ -1,23 +1,41 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class EnemyBehavior : MonoBehaviour
 {
-    [SerializeField] private Transform player;
-    [SerializeField] private float moveSpeed = 3f;
-    [SerializeField] private float rotationSpeed = 5f;
+    [SerializeField] private float _speed;
+    private Transform target;
 
-    private void Update()
+    void Update()
     {
-        // Calcula a direção do jogador
-        Vector3 directionToPlayer = player.position - transform.position;
-        directionToPlayer.y = 0f; // Ignora o eixo y
+        FindClosestPlayer();
+        if (target != null)
+        {
+            // Mover o inimigo em direção ao jogador mais próximo
+            transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
+        }
+    }
 
-        // Rotaciona o inimigo para olhar na direção do jogador
-        Quaternion targetRotation = Quaternion.LookRotation(directionToPlayer);
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+    void FindClosestPlayer()
+    {
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        float shortestDistance = Mathf.Infinity;
+        GameObject closestPlayer = null;
 
-        // Move o inimigo em direção ao jogador
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        foreach (GameObject player in players)
+        {
+            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer < shortestDistance)
+            {
+                shortestDistance = distanceToPlayer;
+                closestPlayer = player;
+            }
+        }
+
+        if (closestPlayer != null)
+        {
+            target = closestPlayer.transform;
+        }
     }
 }

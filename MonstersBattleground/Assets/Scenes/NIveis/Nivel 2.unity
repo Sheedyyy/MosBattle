@@ -6760,7 +6760,6 @@ GameObject:
   - component: {fileID: 803846708}
   - component: {fileID: 803846707}
   - component: {fileID: 803846706}
-  - component: {fileID: 803846710}
   m_Layer: 0
   m_Name: ColliderZone
   m_TagString: Ground
@@ -6854,19 +6853,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 147.501, z: 0}
---- !u!114 &803846710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 803846705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 992ebef282ff4084ab1a46ffcee2fed2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inimigoPrefab: {fileID: 2601025636773962384, guid: 5f507b23920d93d419bfc4d0a819c599, type: 3}
 --- !u!1 &814149141
 GameObject:
   m_ObjectHideFlags: 0
