@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
@@ -14,6 +12,11 @@ public class EnemyBehavior : MonoBehaviour
         {
             // Mover o inimigo em direção ao jogador mais próximo
             transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
+
+            // Fazer o inimigo olhar para o jogador
+            Vector3 lookDirection = target.position - transform.position;
+            lookDirection.y = 0; // Mantenha a rotação apenas no plano horizontal
+            transform.rotation = Quaternion.LookRotation(lookDirection);
         }
     }
 
@@ -38,4 +41,5 @@ public class EnemyBehavior : MonoBehaviour
             target = closestPlayer.transform;
         }
     }
+
 }
