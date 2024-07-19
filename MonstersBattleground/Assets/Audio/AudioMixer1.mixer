@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!243 &-1057387942452798283
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: c82ca6434f670514386ef05754ebd74e
+  m_Children: []
+  m_Volume: 967f78e8f84b9da448e73b4e792c94a7
+  m_Pitch: ac272ce6e597e05439abc3b50cea4ebd
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 683294124126642561}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -18,10 +37,13 @@ AudioMixerController:
   m_ExposedParameters:
   - guid: d46723dbd33989241980780ecb5fca97
     name: music
+  - guid: 967f78e8f84b9da448e73b4e792c94a7
+    name: SFX
   m_AudioMixerGroupViews:
   - guids:
     - 1c9825d4a3b70e448afc2c375d5c09d3
     - e7f5c9049477b3c48b9a868e650ddea1
+    - c82ca6434f670514386ef05754ebd74e
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -71,6 +93,20 @@ AudioMixerSnapshotController:
   m_FloatValues:
     d46723dbd33989241980780ecb5fca97: 0
   m_TransitionOverrides: {}
+--- !u!244 &683294124126642561
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: b021cd21b825a7343a752ce0f1fd684c
+  m_EffectName: Attenuation
+  m_MixLevel: 7f2f6168810656043bcdcaa728b16ee1
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &1271420878122514983
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -80,7 +116,8 @@ AudioMixerGroupController:
   m_Name: Music
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: e7f5c9049477b3c48b9a868e650ddea1
-  m_Children: []
+  m_Children:
+  - {fileID: -1057387942452798283}
   m_Volume: d46723dbd33989241980780ecb5fca97
   m_Pitch: 535295317df614447ba52225ed634f9a
   m_Send: 00000000000000000000000000000000
