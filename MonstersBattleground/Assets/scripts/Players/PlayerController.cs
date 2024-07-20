@@ -13,24 +13,24 @@ public class PlayerController : NetworkBehaviour
     [SerializeField] private PlayerStatus _playerStatus;
     [SerializeField]private InputPlayer inputPlayer;
 
-    [Header("Movimentação do player")]
+    [Header("Movimentaï¿½ï¿½o do player")]
     private Vector2 moveVector;
     private CharacterController characterController;
     private bool isSprinting = false;
 
 
-    [Header("Movimentação da camera do player")]
+    [Header("Movimentaï¿½ï¿½o da camera do player")]
     [SerializeField] private float _lookSenesitivity;
     [SerializeField] private Slider _lookSensitivitySlider;
 
     private Vector2 lookVector;
     private Vector3 rotation;
 
-    // [Header("Animações do player")]
+    // [Header("Animaï¿½ï¿½es do player")]
     // private Animator animator;
     #endregion
 
-    #region Movimentação do player
+    #region Movimentaï¿½ï¿½o do player
 
     void Start()
     {
@@ -66,14 +66,14 @@ public class PlayerController : NetworkBehaviour
 
     private void Move()
     {
-        _playerStatus.VerticalVelocity += -_playerStatus.Gravity * Time.deltaTime;
+        _playerStatus.MoveSpeed += -_playerStatus.Gravity * Time.deltaTime;
 
-        if (characterController.isGrounded && _playerStatus.VerticalVelocity < 0)
+        if (characterController.isGrounded && _playerStatus.MoveSpeed < 0)
         {
-            _playerStatus.VerticalVelocity = -0.1f * _playerStatus.Gravity * Time.deltaTime;
+            _playerStatus.MoveSpeed = -0.1f * _playerStatus.Gravity * Time.deltaTime;
         }
 
-        Vector3 move = transform.right * moveVector.x + transform.forward * moveVector.y + transform.up * _playerStatus.VerticalVelocity;
+        Vector3 move = transform.right * moveVector.x + transform.forward * moveVector.y + transform.up * _playerStatus.MoveSpeed;
         characterController.Move(move * _playerStatus.MoveSpeed * Time.deltaTime);
     }
 
@@ -90,7 +90,7 @@ public class PlayerController : NetworkBehaviour
 
     #endregion
 
-    #region Movimentação da camera do player
+    #region Movimentaï¿½ï¿½o da camera do player
     public void OnLook(InputAction.CallbackContext context)
     {
         lookVector = context.ReadValue<Vector2>();
@@ -117,7 +117,7 @@ public class PlayerController : NetworkBehaviour
 
     private void Jump()
     {
-        _playerStatus.VerticalVelocity = Mathf.Sqrt(_playerStatus.JumpHeight * _playerStatus.Gravity);
+        _playerStatus.MoveSpeed = Mathf.Sqrt(_playerStatus.JumpHeight * _playerStatus.Gravity);
     }
     #endregion
 

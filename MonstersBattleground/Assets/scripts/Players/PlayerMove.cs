@@ -8,9 +8,6 @@ public class PlayerMovement : NetworkBehaviour
     [Header("ScriptableObjects")]
     [SerializeField]private PlayerStatus _playerStatus;
 
-    [SerializeField] private Transform spawnedObjectPrefab;
-    private Transform spawnedObjectTransform;
-
     private NetworkVariable<int> randomNumber = new NetworkVariable<int>(1, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
 
     #endregion
@@ -30,18 +27,6 @@ public class PlayerMovement : NetworkBehaviour
     }
     private void Update()
     {
-        if (!IsOwner) { return; }
-
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            spawnedObjectTransform = Instantiate(spawnedObjectPrefab);
-            spawnedObjectTransform.GetComponent<NetworkObject>().Spawn(true);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            spawnedObjectTransform.GetComponent<NetworkObject>().Despawn(true);
-        }
 
         UpdateMovement();
     }

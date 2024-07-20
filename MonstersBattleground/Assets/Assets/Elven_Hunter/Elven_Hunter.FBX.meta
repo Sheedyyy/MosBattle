@@ -1,0 +1,3240 @@
+fileFormatVersion: 2
+guid: b9f1d6cccef3dd848aedada3b0f590b5
+timeCreated: 1459862077
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arrow
+    100002: arrow01
+    100004: arrow02
+    100006: arrow03
+    100008: arrow04
+    100010: Bip01
+    100012: Bip01 back_center_Wmount
+    100014: Bip01 back_left_Wmount
+    100016: Bip01 back_right_Wmount
+    100018: Bip01 Head
+    100020: Bip01 L Calf
+    100022: Bip01 L Clavicle
+    100024: Bip01 L Finger0
+    100026: Bip01 L Finger01
+    100028: Bip01 L Finger02
+    100030: Bip01 L Finger1
+    100032: Bip01 L Finger11
+    100034: Bip01 L Finger12
+    100036: Bip01 L Finger2
+    100038: Bip01 L Finger21
+    100040: Bip01 L Finger22
+    100042: Bip01 L Finger3
+    100044: Bip01 L Finger31
+    100046: Bip01 L Finger32
+    100048: Bip01 L Finger4
+    100050: Bip01 L Finger41
+    100052: Bip01 L Finger42
+    100054: Bip01 L Foot
+    100056: Bip01 L ForeTwist
+    100058: Bip01 L ForeTwist1
+    100060: Bip01 L Hand
+    100062: Bip01 L Thigh
+    100064: Bip01 L Toe0
+    100066: Bip01 L UpperArm
+    100068: Bip01 LUpArmTwist
+    100070: Bip01 LUpArmTwist1
+    100072: Bip01 Neck
+    100074: Bip01 Pelvis
+    100076: Bip01 R Calf
+    100078: Bip01 R Clavicle
+    100080: Bip01 R Finger0
+    100082: Bip01 R Finger01
+    100084: Bip01 R Finger02
+    100086: Bip01 R Finger1
+    100088: Bip01 R Finger11
+    100090: Bip01 R Finger12
+    100092: Bip01 R Finger2
+    100094: Bip01 R Finger21
+    100096: Bip01 R Finger22
+    100098: Bip01 R Finger3
+    100100: Bip01 R Finger31
+    100102: Bip01 R Finger32
+    100104: Bip01 R Finger4
+    100106: Bip01 R Finger41
+    100108: Bip01 R Finger42
+    100110: Bip01 R Foot
+    100112: Bip01 R ForeTwist
+    100114: Bip01 R ForeTwist1
+    100116: Bip01 R Hand
+    100118: Bip01 R Thigh
+    100120: Bip01 R Toe0
+    100122: Bip01 R UpperArm
+    100124: Bip01 Rhand_Weapon
+    100126: Bip01 RUpArmTwist
+    100128: Bip01 RUpArmTwist1
+    100130: Bip01 skirt_back
+    100132: Bip01 skirt_back02
+    100134: Bip01 skirt_back03
+    100136: Bip01 Spine
+    100138: Bip01 Spine1
+    100140: Bip01 Spine2
+    100142: Bip01 x_eye-lead
+    100144: Bip01 x_Jaw
+    100146: Bip01 x_left_eye
+    100148: Bip01 x_right_eye
+    100150: bone_bow
+    100152: bow
+    100154: bow01
+    100156: Bow_animation_controller
+    100158: Box01
+    100160: Box02
+    100162: chest_armor
+    100164: Elven_body
+    100166: glove
+    100168: graves
+    100170: hair
+    100172: helmet
+    100174: //RootNode
+    100176: paints
+    100178: quiver
+    100180: sheath
+    100182: shouledrs
+    100184: skirt
+    100186: sword
+    100188: sword02
+    400000: arrow
+    400002: arrow01
+    400004: arrow02
+    400006: arrow03
+    400008: arrow04
+    400010: Bip01
+    400012: Bip01 back_center_Wmount
+    400014: Bip01 back_left_Wmount
+    400016: Bip01 back_right_Wmount
+    400018: Bip01 Head
+    400020: Bip01 L Calf
+    400022: Bip01 L Clavicle
+    400024: Bip01 L Finger0
+    400026: Bip01 L Finger01
+    400028: Bip01 L Finger02
+    400030: Bip01 L Finger1
+    400032: Bip01 L Finger11
+    400034: Bip01 L Finger12
+    400036: Bip01 L Finger2
+    400038: Bip01 L Finger21
+    400040: Bip01 L Finger22
+    400042: Bip01 L Finger3
+    400044: Bip01 L Finger31
+    400046: Bip01 L Finger32
+    400048: Bip01 L Finger4
+    400050: Bip01 L Finger41
+    400052: Bip01 L Finger42
+    400054: Bip01 L Foot
+    400056: Bip01 L ForeTwist
+    400058: Bip01 L ForeTwist1
+    400060: Bip01 L Hand
+    400062: Bip01 L Thigh
+    400064: Bip01 L Toe0
+    400066: Bip01 L UpperArm
+    400068: Bip01 LUpArmTwist
+    400070: Bip01 LUpArmTwist1
+    400072: Bip01 Neck
+    400074: Bip01 Pelvis
+    400076: Bip01 R Calf
+    400078: Bip01 R Clavicle
+    400080: Bip01 R Finger0
+    400082: Bip01 R Finger01
+    400084: Bip01 R Finger02
+    400086: Bip01 R Finger1
+    400088: Bip01 R Finger11
+    400090: Bip01 R Finger12
+    400092: Bip01 R Finger2
+    400094: Bip01 R Finger21
+    400096: Bip01 R Finger22
+    400098: Bip01 R Finger3
+    400100: Bip01 R Finger31
+    400102: Bip01 R Finger32
+    400104: Bip01 R Finger4
+    400106: Bip01 R Finger41
+    400108: Bip01 R Finger42
+    400110: Bip01 R Foot
+    400112: Bip01 R ForeTwist
+    400114: Bip01 R ForeTwist1
+    400116: Bip01 R Hand
+    400118: Bip01 R Thigh
+    400120: Bip01 R Toe0
+    400122: Bip01 R UpperArm
+    400124: Bip01 Rhand_Weapon
+    400126: Bip01 RUpArmTwist
+    400128: Bip01 RUpArmTwist1
+    400130: Bip01 skirt_back
+    400132: Bip01 skirt_back02
+    400134: Bip01 skirt_back03
+    400136: Bip01 Spine
+    400138: Bip01 Spine1
+    400140: Bip01 Spine2
+    400142: Bip01 x_eye-lead
+    400144: Bip01 x_Jaw
+    400146: Bip01 x_left_eye
+    400148: Bip01 x_right_eye
+    400150: bone_bow
+    400152: bow
+    400154: bow01
+    400156: Bow_animation_controller
+    400158: Box01
+    400160: Box02
+    400162: chest_armor
+    400164: Elven_body
+    400166: glove
+    400168: graves
+    400170: hair
+    400172: helmet
+    400174: //RootNode
+    400176: paints
+    400178: quiver
+    400180: sheath
+    400182: shouledrs
+    400184: skirt
+    400186: sword
+    400188: sword02
+    2300000: arrow
+    2300002: arrow01
+    2300004: arrow02
+    2300006: arrow03
+    2300008: arrow04
+    2300010: bone_bow
+    2300012: bow01
+    2300014: Bow_animation_controller
+    2300016: Box01
+    2300018: Box02
+    2300020: helmet
+    2300022: quiver
+    2300024: sheath
+    2300026: sword
+    2300028: sword02
+    3300000: arrow
+    3300002: arrow01
+    3300004: arrow02
+    3300006: arrow03
+    3300008: arrow04
+    3300010: bone_bow
+    3300012: bow01
+    3300014: Bow_animation_controller
+    3300016: Box01
+    3300018: Box02
+    3300020: helmet
+    3300022: quiver
+    3300024: sheath
+    3300026: sword
+    3300028: sword02
+    4300000: Elven_body
+    4300002: arrow02
+    4300004: arrow03
+    4300006: arrow04
+    4300008: arrow01
+    4300010: quiver
+    4300012: bow01
+    4300014: bone_bow
+    4300016: Bow_animation_controller
+    4300018: sword02
+    4300020: arrow
+    4300022: sheath
+    4300024: sword
+    4300026: bow
+    4300028: helmet
+    4300030: chest_armor
+    4300032: glove
+    4300034: graves
+    4300036: hair
+    4300038: paints
+    4300040: shouledrs
+    4300042: skirt
+    4300044: Box01
+    4300046: Box02
+    7400000: Elven_Idle
+    7400002: Elven_Drinking_potion
+    7400004: Elven_Eating
+    7400006: Elven_Explanation
+    7400008: Elven_kiss
+    7400010: Elven_looking_around
+    7400012: Elven_making_potion
+    7400014: Elven_pick_object
+    7400016: Elven_pointing_A
+    7400018: Elven_Reject
+    7400020: Elven_speaking
+    7400022: Elven_warning
+    7400024: Elven_waving_B
+    7400026: Elven_yawn
+    7400028: Elven_sit_down
+    7400030: Elven_sitting
+    7400032: Elven_came_up
+    7400034: Elven_Going_asleep
+    7400036: Elven_sleeping
+    7400038: Elven_Waking_up
+    7400040: Elven_Climbing_ladder
+    7400042: Elven_Run
+    7400044: Elven_jump_runing
+    7400046: Elven_Moving_left
+    7400048: Elven_Moving_right
+    7400050: Elven_Sneaking
+    7400052: Elven_Swimming
+    7400054: Elven_walk
+    7400056: 'Elven_walking_back:'
+    7400058: EH_sword_combat_mode
+    7400060: EH_sword_dodge_backwards
+    7400062: EH_sword_dodge_to_left
+    7400064: EH_sword_dodge_to_right
+    7400066: EH_sword_duck_below_high_swing
+    7400068: EH_sword_Hit_from_back
+    7400070: EH_sword_Hit_from_front
+    7400072: EH_sword_Hit_from_left
+    7400074: EH_sword_Hit_from_righ
+    7400076: EH_sword_R_parry_from_stright_down
+    7400078: EH_sword_R_parry_front
+    7400080: EH_sword_R_parry_right
+    7400082: EH_sword_R_swing_left
+    7400084: EH_sword_R_swing_right
+    7400086: EH_sword_R_thrust
+    7400088: EH_sword_Dying_A
+    7400090: EH_archer_combat_mode
+    7400092: EH_archer_dodge_to_left
+    7400094: EH_archer_dodge_to_right
+    7400096: EH_archer_duck_below_swing
+    7400098: EH_archer_get_arrow_fromBack
+    7400100: EH_archer_charging
+    7400102: EH_archer_aim
+    7400104: EH_archer_shoting
+    7400106: EH_archer_taking_hit
+    7400108: EH_archer_Dying
+    7400110: EH_archer_aim_fromUp_toDown
+    7400112: EH_ThrowingAxe_throwing
+    7400114: EH_ThrowingSpear_throwing
+    7400116: EH_walk_trust
+    7400118: EH_walk_R_swing_right
+    7400120: EH_walk_R_swing_left
+    7400122: EH_strife_right
+    7400124: EH_strife_left
+    7400126: Elven_sword_back
+    7400128: Elven_sword_out
+    7400130: EH_archer_takeBow_out
+    7400132: EH_archer_putBow_back
+    7400134: Elven_walk_Combat
+    7400136: Elven_walk_get_arrow_fromBack
+    7400138: Elven_walk_charging
+    7400140: Elven_walk_Aim_forward
+    7400142: Elven_walk_Aim_leftRight
+    7400144: Elven_walk_Aim_UpDown
+    7400146: Elven_walk_shoting
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: bow
+    13700002: chest_armor
+    13700004: Elven_body
+    13700006: glove
+    13700008: graves
+    13700010: hair
+    13700012: paints
+    13700014: shouledrs
+    13700016: skirt
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 'MuscleClip ''Human_Hunter 1''conversion warning: ''Bip01/Bip01
+      Pelvis/Bip01 Spine'' has translation animation. It is not supported.
+
+
+      MuscleClip ''Human_Hunter 1'' conversion warning: ''Bip01/Bip01 Pelvis/Bip01
+      Spine/Bip01 Spine1'' is between humanoid transforms and has rotation animation.
+      This might lower retargeting quality.
+
+
+      MuscleClip ''Human_Hunter 1'' conversion warning: ''Bip01/Bip01 Pelvis/Bip01
+      Spine/Bip01 Spine1/Bip01 Spine2/Bip01 R Clavicle/Bip01 RUpArmTwist/Bip01 RUpArmTwist1/Bip01
+      R ForeTwist/Bip01 R ForeTwist1'' is between humanoid transforms and has rotation
+      animation. This might lower retargeting quality.
+
+
+      MuscleClip ''Human_Hunter 1'' conversion warning: ''Bip01/Bip01 Pelvis/Bip01
+      Spine/Bip01 Spine1/Bip01 Spine2/Bip01 L Clavicle/Bip01 LUpArmTwist/Bip01 LUpArmTwist1/Bip01
+      L ForeTwist/Bip01 L ForeTwist1'' is between humanoid transforms and has rotation
+      animation. This might lower retargeting quality.
+
+
+'
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Elven_Idle
+      takeName: 
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Drinking_potion
+      takeName: 
+      firstFrame: 151
+      lastFrame: 231
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Eating
+      takeName: 
+      firstFrame: 232
+      lastFrame: 352
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Explanation
+      takeName: 
+      firstFrame: 353
+      lastFrame: 398
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_kiss
+      takeName: 
+      firstFrame: 399
+      lastFrame: 484
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_looking_around
+      takeName: 
+      firstFrame: 485
+      lastFrame: 660
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_making_potion
+      takeName: 
+      firstFrame: 663
+      lastFrame: 691
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_pick_object
+      takeName: 
+      firstFrame: 694
+      lastFrame: 733
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_pointing_A
+      takeName: 
+      firstFrame: 734
+      lastFrame: 794
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Reject
+      takeName: 
+      firstFrame: 795
+      lastFrame: 895
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_speaking
+      takeName: 
+      firstFrame: 896
+      lastFrame: 1046
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_warning
+      takeName: 
+      firstFrame: 1047
+      lastFrame: 1107
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_waving_B
+      takeName: 
+      firstFrame: 1108
+      lastFrame: 1153
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_yawn
+      takeName: 
+      firstFrame: 1154
+      lastFrame: 1239
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_sit_down
+      takeName: 
+      firstFrame: 1240
+      lastFrame: 1270
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_sitting
+      takeName: 
+      firstFrame: 1271
+      lastFrame: 1421
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_came_up
+      takeName: 
+      firstFrame: 1422
+      lastFrame: 1457
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Going_asleep
+      takeName: 
+      firstFrame: 1458
+      lastFrame: 1528
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_sleeping
+      takeName: 
+      firstFrame: 1529
+      lastFrame: 1602
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Waking_up
+      takeName: 
+      firstFrame: 1605
+      lastFrame: 1675
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Climbing_ladder
+      takeName: 
+      firstFrame: 1678
+      lastFrame: 1708
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Run
+      takeName: 
+      firstFrame: 1711
+      lastFrame: 1737
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_jump_runing
+      takeName: 
+      firstFrame: 1740
+      lastFrame: 1780
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Moving_left
+      takeName: 
+      firstFrame: 1783
+      lastFrame: 1803
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Moving_right
+      takeName: 
+      firstFrame: 1804
+      lastFrame: 1824
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Sneaking
+      takeName: 
+      firstFrame: 1827
+      lastFrame: 1877
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_Swimming
+      takeName: 
+      firstFrame: 1880
+      lastFrame: 1910
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_walk
+      takeName: 
+      firstFrame: 1913
+      lastFrame: 1963
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 'Elven_walking_back:'
+      takeName: 
+      firstFrame: 1966
+      lastFrame: 2000.99988
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_combat_mode
+      takeName: 
+      firstFrame: 2004.00012
+      lastFrame: 2054
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_dodge_backwards
+      takeName: 
+      firstFrame: 2055
+      lastFrame: 2090
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_dodge_to_left
+      takeName: 
+      firstFrame: 2091
+      lastFrame: 2126
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_dodge_to_right
+      takeName: 
+      firstFrame: 2127
+      lastFrame: 2162
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_duck_below_high_swing
+      takeName: 
+      firstFrame: 2163
+      lastFrame: 2198
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_Hit_from_back
+      takeName: 
+      firstFrame: 2199
+      lastFrame: 2234
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_Hit_from_front
+      takeName: 
+      firstFrame: 2235
+      lastFrame: 2270
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_Hit_from_left
+      takeName: 
+      firstFrame: 2271
+      lastFrame: 2306
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_Hit_from_righ
+      takeName: 
+      firstFrame: 2307
+      lastFrame: 2342
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_R_parry_from_stright_down
+      takeName: 
+      firstFrame: 2343
+      lastFrame: 2378
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_R_parry_front
+      takeName: 
+      firstFrame: 2379
+      lastFrame: 2414
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_R_parry_right
+      takeName: 
+      firstFrame: 2415
+      lastFrame: 2450
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_R_swing_left
+      takeName: 
+      firstFrame: 2451
+      lastFrame: 2486
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_R_swing_right
+      takeName: 
+      firstFrame: 2487
+      lastFrame: 2522
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_R_thrust
+      takeName: 
+      firstFrame: 2523
+      lastFrame: 2558
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_sword_Dying_A
+      takeName: 
+      firstFrame: 2559
+      lastFrame: 2624
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_combat_mode
+      takeName: 
+      firstFrame: 2627
+      lastFrame: 2702
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_dodge_to_left
+      takeName: 
+      firstFrame: 2703
+      lastFrame: 2738
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_dodge_to_right
+      takeName: 
+      firstFrame: 2739
+      lastFrame: 2774
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_duck_below_swing
+      takeName: 
+      firstFrame: 2775
+      lastFrame: 2810
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_get_arrow_fromBack
+      takeName: 
+      firstFrame: 2811
+      lastFrame: 2861
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_charging
+      takeName: 
+      firstFrame: 2862
+      lastFrame: 2902
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_aim
+      takeName: 
+      firstFrame: 2903
+      lastFrame: 3003
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_shoting
+      takeName: 
+      firstFrame: 3004
+      lastFrame: 3039
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_taking_hit
+      takeName: 
+      firstFrame: 3040
+      lastFrame: 3075
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_Dying
+      takeName: 
+      firstFrame: 3076
+      lastFrame: 3116
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_aim_fromUp_toDown
+      takeName: 
+      firstFrame: 3122
+      lastFrame: 3142
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_ThrowingAxe_throwing
+      takeName: 
+      firstFrame: 3147
+      lastFrame: 3182
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_ThrowingSpear_throwing
+      takeName: 
+      firstFrame: 3183
+      lastFrame: 3218
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_walk_trust
+      takeName: 
+      firstFrame: 3223
+      lastFrame: 3258
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_walk_R_swing_right
+      takeName: 
+      firstFrame: 3259
+      lastFrame: 3294
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_walk_R_swing_left
+      takeName: 
+      firstFrame: 3295
+      lastFrame: 3330
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_strife_right
+      takeName: 
+      firstFrame: 3335
+      lastFrame: 3370
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_strife_left
+      takeName: 
+      firstFrame: 3375
+      lastFrame: 3410
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_sword_back
+      takeName: 
+      firstFrame: 3415
+      lastFrame: 3455
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_sword_out
+      takeName: 
+      firstFrame: 3456
+      lastFrame: 3496
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_takeBow_out
+      takeName: 
+      firstFrame: 3497
+      lastFrame: 3532
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EH_archer_putBow_back
+      takeName: 
+      firstFrame: 3533
+      lastFrame: 3568
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_walk_Combat
+      takeName: 
+      firstFrame: 3573
+      lastFrame: 3618
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_walk_get_arrow_fromBack
+      takeName: 
+      firstFrame: 3619
+      lastFrame: 3664
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_walk_charging
+      takeName: 
+      firstFrame: 3665
+      lastFrame: 3710
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_walk_Aim_forward
+      takeName: 
+      firstFrame: 3711
+      lastFrame: 3756
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_walk_Aim_leftRight
+      takeName: 
+      firstFrame: 3761
+      lastFrame: 3851
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_walk_Aim_UpDown
+      takeName: 
+      firstFrame: 3856.00024
+      lastFrame: 3946.00024
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Elven_walk_shoting
+      takeName: 
+      firstFrame: 3952
+      lastFrame: 3996
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Bip01 Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 LUpArmTwist
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 RUpArmTwist
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L ForeTwist
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R ForeTwist
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 x_left_eye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 x_right_eye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 x_Jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger02
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger12
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger22
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger32
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger41
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger42
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger02
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger12
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger22
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger32
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger41
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger42
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Human_Hunter(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bip01
+      position: {x: .149900392, y: 1.03683746, z: .0870963857}
+      rotation: {x: -.45739904, y: .577465057, z: .520933449, w: .431217492}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 Pelvis
+      position: {x: .0285228677, y: .147962078, z: .0334450006}
+      rotation: {x: .472141623, y: -.536489666, z: -.416495323, w: -.561954498}
+      scale: {x: .999999881, y: .999999881, z: .999999464}
+      transformModified: 1
+    - name: Bip01 back_center_Wmount
+      position: {x: .135776669, y: -.0520816594, z: .25905326}
+      rotation: {x: .258198977, y: -.119176671, z: -.259718627, w: .922863185}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: sheath
+      position: {x: 1.52587887e-07, y: 0, z: 5.72204577e-08}
+      rotation: {x: -.000212577652, y: .000327695889, z: .000470439903, w: .999999821}
+      scale: {x: .999999762, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: sword
+      position: {x: -.223577648, y: -.00188119884, z: -9.82666024e-05}
+      rotation: {x: .000340668979, y: -.0328958258, z: .0103413425, w: .999405265}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: Bip01 skirt_back
+      position: {x: -.0281610861, y: -.143837586, z: -6.6757201e-07}
+      rotation: {x: 9.23871994e-07, y: -3.87430191e-07, z: .998876452, w: .0473913997}
+      scale: {x: .999999881, y: .999999762, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 skirt_back02
+      position: {x: -.100899123, y: -.000161590579, z: 0}
+      rotation: {x: -7.00354576e-07, y: 4.61935997e-07, z: .0103883594, w: .999946117}
+      scale: {x: .999999881, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Bip01 skirt_back03
+      position: {x: -.203050688, y: -.000172033309, z: 0}
+      rotation: {x: 9.89437012e-06, y: -1.2218951e-06, z: -.0601258948, w: .99819082}
+      scale: {x: .999999881, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Bip01 L Thigh
+      position: {x: 1.52587887e-07, y: 2.09808348e-07, z: .116559424}
+      rotation: {x: -.0098592639, y: .998843372, z: .0448675454, w: .0142017305}
+      scale: {x: 1.00000072, y: 1.00000083, z: 1.00000072}
+      transformModified: 1
+    - name: Bip01 L Calf
+      position: {x: -.483977199, y: 0, z: 9.53674295e-09}
+      rotation: {x: -1.93715067e-07, y: 0, z: .0497792885, w: .998760223}
+      scale: {x: 1, y: .999999762, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 L Foot
+      position: {x: -.458914489, y: 1.66893006e-08, z: -1.90734859e-08}
+      rotation: {x: .0145943146, y: .0116486838, z: -.04574145, w: .99877882}
+      scale: {x: .999999762, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: Bip01 L Toe0
+      position: {x: -.103542231, y: .157258779, z: 0}
+      rotation: {x: 1.1920929e-07, y: 1.07567757e-07, z: -.707106829, w: .707106769}
+      scale: {x: .99999994, y: 1.00000024, z: .999999821}
+      transformModified: 1
+    - name: Bip01 Spine
+      position: {x: -.0820928961, y: .00854497869, z: -.0085988231}
+      rotation: {x: 3.12924385e-07, y: .0001231879, z: -1.97887421e-05, w: 1}
+      scale: {x: 1.0000006, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: Bip01 Spine1
+      position: {x: -.0880073532, y: -7.6370241e-05, z: -5.8841706e-06}
+      rotation: {x: -.000122219324, y: -.000121504068, z: .0129992813, w: .999915481}
+      scale: {x: .999999583, y: .999999285, z: 1}
+      transformModified: 1
+    - name: Bip01 Spine2
+      position: {x: -.0962326005, y: -.000171661377, z: 1.58023831e-05}
+      rotation: {x: .000120282173, y: -6.48200512e-06, z: .0537281185, w: .998555601}
+      scale: {x: .999999523, y: .999999344, z: .999999821}
+      transformModified: 1
+    - name: Bip01 back_left_Wmount
+      position: {x: -.274351656, y: -.205172077, z: .1444574}
+      rotation: {x: -.122586161, y: .684643686, z: -.683820605, w: -.2205109}
+      scale: {x: .99999994, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: arrow01
+      position: {x: .236116022, y: -.0289739594, z: -.00304737082}
+      rotation: {x: .507415831, y: .502538741, z: .490467161, w: .499425769}
+      scale: {x: 1.00000012, y: 1, z: .999999821}
+      transformModified: 1
+    - name: arrow02
+      position: {x: .254918218, y: .0088596344, z: -.00359216682}
+      rotation: {x: .498469532, y: .511955798, z: .500456154, w: .488848716}
+      scale: {x: .99999994, y: 1, z: .999999702}
+      transformModified: 1
+    - name: arrow03
+      position: {x: .253650188, y: .0513839722, z: -.0036468124}
+      rotation: {x: .488972902, y: .521312475, z: .51022917, w: .478335828}
+      scale: {x: .99999994, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: arrow04
+      position: {x: .248094782, y: .00413253764, z: .00314044952}
+      rotation: {x: .499731094, y: .494991332, z: .498083055, w: .507115066}
+      scale: {x: .999999762, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: quiver
+      position: {x: .027405547, y: -.000306549075, z: .000419597607}
+      rotation: {x: 5.67920142e-05, y: 1.40017382e-05, z: 4.02251999e-06, w: 1}
+      scale: {x: .999999583, y: .999999642, z: .99999994}
+      transformModified: 1
+    - name: Bip01 back_right_Wmount
+      position: {x: -.0233511347, y: -.190458864, z: -.0399099253}
+      rotation: {x: -.68253231, y: -.10161119, z: -.2052522, w: .694043517}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: bow01
+      position: {x: -0, y: -3.81469718e-08, z: 0}
+      rotation: {x: -5.5818331e-05, y: -6.49454978e-06, z: .000791981758, w: .999999702}
+      scale: {x: .99999994, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 L Clavicle
+      position: {x: -.197186887, y: .00527662272, z: .0323712341}
+      rotation: {x: -.689445376, y: -.0631845966, z: .719074845, w: .0600356385}
+      scale: {x: .999999642, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Bip01 LUpArmTwist
+      position: {x: -.133497089, y: 1.90734859e-08, z: 1.52587887e-07}
+      rotation: {x: -.0606443286, y: -.0130417738, z: .0846944526, w: .994474292}
+      scale: {x: .999999583, y: 1.00000119, z: .999999762}
+      transformModified: 1
+    - name: Bip01 LUpArmTwist1
+      position: {x: -.117893904, y: 0, z: -1.90734859e-08}
+      rotation: {x: 0, y: 1.04308114e-07, z: 4.470348e-08, w: 1}
+      scale: {x: 1.00000012, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: Bip01 L ForeTwist
+      position: {x: -.11789383, y: 0, z: 0}
+      rotation: {x: .0496282987, y: .0262320172, z: .035847947, w: .997779489}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 L ForeTwist1
+      position: {x: -.121933207, y: -3.81469718e-08, z: 1.90734859e-08}
+      rotation: {x: .0554572046, y: -1.04308114e-07, z: -2.04890949e-08, w: .998461127}
+      scale: {x: .999999762, y: .99999994, z: .999999702}
+      transformModified: 1
+    - name: Bip01 L Hand
+      position: {x: -.121933289, y: 0, z: -1.90734859e-08}
+      rotation: {x: .666497409, y: -.0203900132, z: -.0113354949, w: -.745142221}
+      scale: {x: .999999642, y: .999999762, z: 1.00000012}
+      transformModified: 1
+    - name: bone_bow
+      position: {x: -.0867594853, y: .0194776524, z: -.000539627043}
+      rotation: {x: .900569797, y: -.387461364, z: -.0572067127, w: -.188613623}
+      scale: {x: 1.00000048, y: .999999523, z: 1.00000036}
+      transformModified: 1
+    - name: Bow_animation_controller
+      position: {x: .131231844, y: -.033934325, z: -.0935061648}
+      rotation: {x: -3.08109982e-08, y: 9.08785143e-16, z: -1.7457781e-08, w: 1}
+      scale: {x: .999999702, y: .999999702, z: .99999994}
+      transformModified: 1
+    - name: Bip01 L Finger4
+      position: {x: -.0803458765, y: -.00266902917, z: .0362922661}
+      rotation: {x: -.00216257083, y: .0464126132, z: -.00915295817, w: .998878121}
+      scale: {x: 1.00000048, y: 1.00000036, z: 1.0000006}
+      transformModified: 1
+    - name: Bip01 L Finger41
+      position: {x: -.0343023874, y: 3.81469718e-08, z: 7.62939436e-08}
+      rotation: {x: -2.89524763e-07, y: 2.92807681e-06, z: -.0368808433, w: .999319732}
+      scale: {x: .999999642, y: 1, z: 1}
+      transformModified: 1
+    - name: Bip01 L Finger42
+      position: {x: -.0156841651, y: -1.90734859e-08, z: -7.62939436e-08}
+      rotation: {x: -1.71363268e-07, y: 0, z: -.0729685351, w: .997334242}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: Bip01 L Finger3
+      position: {x: -.07895156, y: -.00531444559, z: .0174304955}
+      rotation: {x: -.00115989789, y: .0451333374, z: -.0137509853, w: .998885691}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Bip01 L Finger31
+      position: {x: -.040773049, y: 0, z: -1.52587887e-07}
+      rotation: {x: 3.75934007e-07, y: -2.59280091e-06, z: -.0377686843, w: .999286473}
+      scale: {x: .999999642, y: .999999106, z: .999999285}
+      transformModified: 1
+    - name: Bip01 L Finger32
+      position: {x: -.0189531315, y: 0, z: 7.62939436e-08}
+      rotation: {x: -2.23517294e-08, y: -1.49011527e-07, z: -.116402201, w: .99320215}
+      scale: {x: .99999994, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 L Finger1
+      position: {x: -.0829253942, y: -.00118087768, z: -.0242275987}
+      rotation: {x: -.000766552694, y: -.0105507486, z: 4.2766319e-06, w: .999944091}
+      scale: {x: 1.00000048, y: 1.0000006, z: 1.00000095}
+      transformModified: 1
+    - name: Bip01 L Finger11
+      position: {x: -.0333600231, y: 0, z: 0}
+      rotation: {x: 6.83648622e-08, y: 7.82310565e-07, z: -.0377720296, w: .999286354}
+      scale: {x: 1.00000012, y: .999999821, z: .999999642}
+      transformModified: 1
+    - name: Bip01 L Finger12
+      position: {x: -.0264241789, y: 0, z: 0}
+      rotation: {x: 1.04308114e-07, y: -1.7881392e-07, z: -.116402015, w: .993202209}
+      scale: {x: .999999881, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: Bip01 L Finger0
+      position: {x: -.0282063242, y: .0112700267, z: -.0305179581}
+      rotation: {x: -.588450313, y: .32295841, z: -.225195587, w: -.706194699}
+      scale: {x: 1.00000024, y: .999999762, z: 1.00000036}
+      transformModified: 1
+    - name: Bip01 L Finger01
+      position: {x: -.0365028381, y: 7.62939436e-08, z: -3.81469718e-08}
+      rotation: {x: -8.1956351e-08, y: -1.26659813e-06, z: -.0350982398, w: .999383926}
+      scale: {x: 1, y: 1.00000072, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 L Finger02
+      position: {x: -.018694954, y: 0, z: 3.81469718e-08}
+      rotation: {x: 8.1490704e-08, y: -5.96046306e-08, z: -.0555516146, w: .998455882}
+      scale: {x: 1.00000024, y: .999999166, z: .999999762}
+      transformModified: 1
+    - name: Bip01 L Finger2
+      position: {x: -.0810631961, y: -.00628658291, z: -.00308456412}
+      rotation: {x: -.000398125354, y: .00589456921, z: -2.36928372e-06, w: .999982536}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: Bip01 L Finger21
+      position: {x: -.0414245017, y: 3.81469718e-08, z: 7.62939436e-08}
+      rotation: {x: -2.87371165e-07, y: 1.17719151e-06, z: -.0377731174, w: .999286413}
+      scale: {x: .999999583, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: Bip01 L Finger22
+      position: {x: -.0246739183, y: 0, z: -7.62939436e-08}
+      rotation: {x: 6.70552112e-08, y: 8.94069458e-08, z: -.11640203, w: .993202269}
+      scale: {x: 1.00000012, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: Bip01 Neck
+      position: {x: -.276119828, y: -.0178789906, z: -6.03675835e-06}
+      rotation: {x: 5.51343021e-07, y: -2.86102318e-06, z: -.167587966, w: .985857129}
+      scale: {x: 1.00000048, y: 1.00000072, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 Head
+      position: {x: -.072033383, y: .00438602455, z: 0}
+      rotation: {x: -5.3644186e-07, y: -6.55651149e-07, z: .0598843135, w: .998205364}
+      scale: {x: .999999702, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: helmet
+      position: {x: -.248403162, y: -.0885526091, z: -2.40707395e-05}
+      rotation: {x: .706514835, y: .0289284028, z: -.706514835, w: .0289284028}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 x_Jaw
+      position: {x: -.0255148318, y: .02623556, z: 3.81469718e-08}
+      rotation: {x: 7.4505806e-09, y: 2.35438347e-06, z: -.85284853, w: .522158384}
+      scale: {x: .999999762, y: 1.00000072, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 x_eye-lead
+      position: {x: -.079650268, y: .0855787471, z: -3.81469718e-08}
+      rotation: {x: -4.47034836e-08, y: 1.04308128e-06, z: -.399114728, w: .916900992}
+      scale: {x: .99999994, y: .999999404, z: .999999702}
+      transformModified: 1
+    - name: Bip01 x_left_eye
+      position: {x: -.0795353651, y: .0758801177, z: .030818671}
+      rotation: {x: .0883882195, y: .0607792772, z: -.670262992, w: .734330356}
+      scale: {x: .999999583, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 x_right_eye
+      position: {x: -.0795356706, y: .0758816674, z: -.0308184419}
+      rotation: {x: .088388212, y: .0607756414, z: .67026329, w: -.734330356}
+      scale: {x: .999999642, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: Bip01 R Clavicle
+      position: {x: -.197186738, y: .00527679455, z: -.0323712043}
+      rotation: {x: .689445436, y: .0631824806, z: .719075084, w: .0600337423}
+      scale: {x: 1.00000012, y: 1.0000006, z: 1.00000036}
+      transformModified: 1
+    - name: Bip01 RUpArmTwist
+      position: {x: -.133497104, y: 0, z: -1.52587887e-07}
+      rotation: {x: .0606438145, y: .0130482204, z: .0846908018, w: .99447453}
+      scale: {x: .999999881, y: 1.0000006, z: .999999702}
+      transformModified: 1
+    - name: Bip01 RUpArmTwist1
+      position: {x: -.11789383, y: 0, z: 0}
+      rotation: {x: 5.96046448e-08, y: 1.1920929e-07, z: 0, w: 1}
+      scale: {x: .999999583, y: 1.00000012, z: .999999702}
+      transformModified: 1
+    - name: Bip01 R ForeTwist
+      position: {x: -.117893904, y: -7.62939436e-08, z: -1.90734859e-08}
+      rotation: {x: -.0496282205, y: -.0262320861, z: .0358478278, w: .997779489}
+      scale: {x: 1.00000083, y: 1, z: 1}
+      transformModified: 1
+    - name: Bip01 R ForeTwist1
+      position: {x: -.121933132, y: 0, z: 2.86102289e-08}
+      rotation: {x: -.0554571971, y: 8.94069601e-08, z: 1.63912759e-07, w: .998461127}
+      scale: {x: .999999821, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 R Hand
+      position: {x: -.121933289, y: 0, z: 1.90734859e-08}
+      rotation: {x: .666497409, y: -.0203901529, z: .0113353729, w: .745142341}
+      scale: {x: .999999642, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: Bip01 Rhand_Weapon
+      position: {x: -.0748374164, y: .0241543576, z: .000691146823}
+      rotation: {x: -.503035069, y: .485051304, z: .516610265, w: .494767427}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: arrow
+      position: {x: -7.62939436e-08, y: -4.29153424e-08, z: -1.52587887e-07}
+      rotation: {x: -.290105432, y: .651586711, z: -.285085648, w: .640312254}
+      scale: {x: 1.00000024, y: 1.00000048, z: 1.00000083}
+      transformModified: 1
+    - name: sword02
+      position: {x: -7.62939436e-08, y: -3.81469718e-08, z: -1.52587887e-07}
+      rotation: {x: 1.0570501e-06, y: -7.45060902e-08, z: -3.2596256e-07, w: 1}
+      scale: {x: -1.00000083, y: -1.00000095, z: -1.00000024}
+      transformModified: 1
+    - name: Box01
+      position: {x: -.0858486146, y: .0311874375, z: .006519699}
+      rotation: {x: .982687235, y: .0373732299, z: .0126106413, w: -.181025013}
+      scale: {x: 1, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: Box02
+      position: {x: -.0878489763, y: .00792030338, z: .0215073396}
+      rotation: {x: .982687235, y: .0373732299, z: .0126106413, w: -.181025013}
+      scale: {x: 1, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: Bip01 R Finger4
+      position: {x: -.0803458691, y: -.00266891485, z: -.0362922661}
+      rotation: {x: .00216294732, y: -.0464148447, z: -.00915473793, w: .998878002}
+      scale: {x: 1.00000083, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: Bip01 R Finger41
+      position: {x: -.0343023501, y: 7.62939436e-08, z: 7.62939436e-08}
+      rotation: {x: -4.07919089e-07, y: 2.57976239e-06, z: -.036887534, w: .999319434}
+      scale: {x: .999999821, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: Bip01 R Finger42
+      position: {x: -.0156842414, y: -3.81469718e-08, z: -7.62939436e-08}
+      rotation: {x: 1.80676494e-07, y: -7.45057704e-08, z: -.0729683489, w: .997334301}
+      scale: {x: 1.00000024, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: Bip01 R Finger3
+      position: {x: -.0789515302, y: -.00531448331, z: -.0174303427}
+      rotation: {x: .00116003607, y: -.0451331846, z: -.0137507999, w: .998885632}
+      scale: {x: .999999881, y: .999999881, z: .999999523}
+      transformModified: 1
+    - name: Bip01 R Finger31
+      position: {x: -.0407730564, y: 0, z: 7.62939436e-08}
+      rotation: {x: -1.49011512e-07, y: 2.73808638e-07, z: -.0377720222, w: .999286354}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: Bip01 R Finger32
+      position: {x: -.0189531315, y: -7.62939436e-08, z: 0}
+      rotation: {x: -2.16066738e-07, y: 2.98023082e-08, z: -.116402216, w: .993202209}
+      scale: {x: 1.00000012, y: .999999821, z: .999999702}
+      transformModified: 1
+    - name: Bip01 R Finger1
+      position: {x: -.0829254016, y: -.00118087768, z: .0242274478}
+      rotation: {x: .000766679354, y: .010550689, z: 4.32785464e-06, w: .999944031}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: Bip01 R Finger11
+      position: {x: -.0333599858, y: 7.62939436e-08, z: 0}
+      rotation: {x: -1.67637978e-07, y: -1.04308079e-07, z: -.037775822, w: .999286234}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 R Finger12
+      position: {x: -.0264242031, y: 0, z: 0}
+      rotation: {x: -8.56816698e-08, y: 2.98023188e-08, z: -.116402119, w: .993202209}
+      scale: {x: .999999762, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Bip01 R Finger0
+      position: {x: -.0282063186, y: .0112699885, z: .0305181108}
+      rotation: {x: .588450909, y: -.322958678, z: -.225193337, w: -.706194818}
+      scale: {x: .999999583, y: 1.0000006, z: 1.00000024}
+      transformModified: 1
+    - name: Bip01 R Finger01
+      position: {x: -.0385812558, y: 0, z: 0}
+      rotation: {x: 1.19209247e-07, y: 1.66892949e-06, z: .0350956358, w: -.999384046}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 R Finger02
+      position: {x: -.018694954, y: 7.62939436e-08, z: 0}
+      rotation: {x: 1.49011555e-07, y: -5.96046235e-08, z: -.0555517487, w: .998455882}
+      scale: {x: 1, y: .999999523, z: .999999821}
+      transformModified: 1
+    - name: Bip01 R Finger2
+      position: {x: -.0810632035, y: -.00628646836, z: .00308456412}
+      rotation: {x: .00039827064, y: -.00589464372, z: -2.28546469e-06, w: .999982536}
+      scale: {x: .999999821, y: .999999762, z: .999999642}
+      transformModified: 1
+    - name: Bip01 R Finger21
+      position: {x: -.0414244942, y: 0, z: 0}
+      rotation: {x: 1.78813835e-07, y: -9.03382386e-07, z: -.0377736762, w: .999286294}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.00000012}
+      transformModified: 1
+    - name: Bip01 R Finger22
+      position: {x: -.0246739574, y: -7.62939436e-08, z: 7.62939436e-08}
+      rotation: {x: 5.12227309e-08, y: 1.49011576e-08, z: -.116402119, w: .993202209}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: Bip01 R Thigh
+      position: {x: -3.05175774e-07, y: -1.14440915e-07, z: -.116559424}
+      rotation: {x: -.0098592937, y: .998843431, z: -.0448670089, w: -.0142012835}
+      scale: {x: 1.00000036, y: 1.00000072, z: 1.00000036}
+      transformModified: 1
+    - name: Bip01 R Calf
+      position: {x: -.483977169, y: -9.53674295e-09, z: 0}
+      rotation: {x: 5.96046377e-08, y: 5.96046377e-08, z: .0497793779, w: .998760223}
+      scale: {x: .999999821, y: .999999225, z: .999999523}
+      transformModified: 1
+    - name: Bip01 R Foot
+      position: {x: -.458914548, y: 1.90734859e-08, z: -1.90734859e-08}
+      rotation: {x: -.0145942848, y: -.0116488626, z: -.0457414649, w: .99877876}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: Bip01 R Toe0
+      position: {x: -.103542231, y: .157258764, z: 3.81469718e-08}
+      rotation: {x: -1.49011612e-07, y: -1.91736035e-07, z: -.707106829, w: .707106769}
+      scale: {x: 1.00000012, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: bow
+      position: {x: 0, y: .00366765959, z: .933446109}
+      rotation: {x: -3.09086232e-08, y: .707106829, z: .707106829, w: 3.09086232e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_armor
+      position: {x: 0, y: 1.05933702, z: -.0996280015}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Elven_body
+      position: {x: 0, y: .94764781, z: .070380114}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: glove
+      position: {x: -.160454497, y: 1.32766402, z: -.0433605053}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: graves
+      position: {x: -.127084494, y: .323560983, z: -.212388486}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair
+      position: {x: -.0514429994, y: 1.70541048, z: -.0570110008}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: paints
+      position: {x: 0, y: .944976926, z: .112035498}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shouledrs
+      position: {x: -.183293492, y: 1.61714995, z: -.00726449955}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: skirt
+      position: {x: 0, y: 1.05933702, z: -.0996280015}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

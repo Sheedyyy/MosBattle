@@ -9,7 +9,6 @@ public class PlayerStatus : ScriptableObject
     [Header("Velocidade do player")]
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _moveDirectionValue;
-    [SerializeField] private float _verticalVelocity;
     [SerializeField] private float _rotationSpeed;
     [SerializeField] private float _rotationAngle;
 
@@ -18,7 +17,7 @@ public class PlayerStatus : ScriptableObject
     [SerializeField] private float _jumpHeight;
     [SerializeField] private float _gravity;
 
-   /* [Header("Ataque do player")]
+    /*[Header("Ataque do player")]
     [SerializeField] private int _attack;*/
 
     #endregion
@@ -35,11 +34,6 @@ public class PlayerStatus : ScriptableObject
     {
         get => _moveDirectionValue;
         set => _moveDirectionValue = value;
-    }
-    public float VerticalVelocity
-    {
-        get => _verticalVelocity;
-        set => _verticalVelocity = value;
     }
 
     public float RotationSpeed
@@ -65,6 +59,7 @@ public class PlayerStatus : ScriptableObject
         get => _gravity;
         set => _gravity = value;
     }
+
 
     #endregion
 }
