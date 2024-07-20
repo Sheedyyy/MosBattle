@@ -431,6 +431,7 @@ GameObject:
   - component: {fileID: 131601937}
   - component: {fileID: 131601941}
   - component: {fileID: 131601936}
+  - component: {fileID: 131601942}
   m_Layer: 0
   m_Name: PlayerTeste (1)
   m_TagString: Player
@@ -533,7 +534,7 @@ Transform:
   m_GameObject: {fileID: 131601935}
   serializedVersion: 2
   m_LocalRotation: {x: 0.002522598, y: 0.0047838935, z: 0.0082548885, w: 0.99995136}
-  m_LocalPosition: {x: -0.10000014, y: 0.98, z: 2.41}
+  m_LocalPosition: {x: 0.21, y: 0.98, z: 1.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -566,6 +567,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
+--- !u!114 &131601942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131601935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 3592060740
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1 &197510427
 GameObject:
   m_ObjectHideFlags: 0
@@ -6153,7 +6175,7 @@ GameObject:
   - component: {fileID: 2029484587}
   - component: {fileID: 2029484586}
   - component: {fileID: 2029484590}
-  - component: {fileID: 2029484585}
+  - component: {fileID: 2029484592}
   m_Layer: 0
   m_Name: SpawnLine
   m_TagString: Untagged
@@ -6161,25 +6183,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2029484585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029484584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f69dd983c58e44c8b185162377465d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _enemyPrefabs:
-  - {fileID: 1826948215981417422, guid: 24d398878f809e948bc0c005c438d4e8, type: 3}
-  - {fileID: 1611751504341891871, guid: 746aeb2e8aead784d88b4574b709b513, type: 3}
-  - {fileID: 3748536150326668401, guid: 8bfb3ec95ba0772498a43dd87160114f, type: 3}
-  - {fileID: 7325914663905956209, guid: caa63a841476b684bbcf30d6af88501d, type: 3}
-  - {fileID: 436456711357108765, guid: b54d8afade070a54fbd3e3a77317c740, type: 3}
-  numberOfEnemies: 5
 --- !u!65 &2029484586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6293,6 +6296,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2029484592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029484584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d33fcea8324004ead82489119480e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 1826948215981417422, guid: 24d398878f809e948bc0c005c438d4e8, type: 3}
+  - {fileID: 1611751504341891871, guid: 746aeb2e8aead784d88b4574b709b513, type: 3}
+  - {fileID: 3748536150326668401, guid: 8bfb3ec95ba0772498a43dd87160114f, type: 3}
+  - {fileID: 7325914663905956209, guid: caa63a841476b684bbcf30d6af88501d, type: 3}
+  - {fileID: 436456711357108765, guid: b54d8afade070a54fbd3e3a77317c740, type: 3}
 --- !u!1 &2068406824
 GameObject:
   m_ObjectHideFlags: 0
