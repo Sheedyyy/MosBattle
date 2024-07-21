@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
-    [SerializeField] private float _speed;
+    [SerializeField] private ZombieStats _zombieStats;
     private Transform target;
 
     void Update()
@@ -11,7 +11,7 @@ public class EnemyBehavior : MonoBehaviour
         if (target != null)
         {
             // Mover o inimigo em direção ao jogador mais próximo
-            transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, target.position, _zombieStats.ZombieSpeed * Time.deltaTime);
 
             // Fazer o inimigo olhar para o jogador
             Vector3 lookDirection = target.position - transform.position;

@@ -1130,7 +1130,7 @@ Animator:
   m_GameObject: {fileID: 3748536150326668401}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: d52c864542db90c48aa24e45ffdbef09, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ea32f276bdb9ee14482935e21dc13420, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1153,7 +1153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 663ce054d4dc8114baa7621841465c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _zombieStats: {fileID: 11400000, guid: bc8e018be5cbd794a9111cfa4fd8cb2c, type: 2}
 --- !u!82 &1819298156506375901
 AudioSource:
   m_ObjectHideFlags: 0
