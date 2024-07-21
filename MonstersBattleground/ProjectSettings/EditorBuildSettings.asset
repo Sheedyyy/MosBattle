@@ -17,4 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/LobbyScene.unity
     guid: afa20149d3506af4c9f502c7fd1c046b
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 894c7ff70164af642b12adea998497ec, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 3b00cd3afafc5e34889f7aa7f1adf789, type: 2}

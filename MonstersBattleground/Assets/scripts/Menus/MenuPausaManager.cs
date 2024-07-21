@@ -9,8 +9,12 @@ public class MenuPausaManager : MonoBehaviour
     // Referência para o GameObject do menu de opções
     [SerializeField] private GameObject optionsMenu;
 
+    // Referência para o GameObject do menu de Linguas
+    [SerializeField] private GameObject LinguaMenu;
+
     // Variável para rastrear se o jogador está no menu de opções
     private bool isInOptions = false;
+    private bool isInLinguas = false;
 
     // Atualiza é chamado uma vez por frame
     void Update()
@@ -19,13 +23,15 @@ public class MenuPausaManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             // Se o jogador não está no menu de opções
-            if (!isInOptions)
+            if (!isInOptions || !isInLinguas)
             {
                 // Se o menu de pausa estiver ativo, desative-o e despausa o jogo
                 if (pauseMenu.activeSelf)
                 {
                     ContinueGame();
-                }
+                } 
+                
+            
                 // Se estiver inativo, ative-o e pausa o jogo
                 else
                 {
@@ -33,7 +39,11 @@ public class MenuPausaManager : MonoBehaviour
                     Time.timeScale = 0;
                 }
             }
+
+           
         }
+
+
     }
 
     // Função para continuar o jogo
@@ -56,19 +66,45 @@ public class MenuPausaManager : MonoBehaviour
         isInOptions = true;
     }
 
+
+    // Função para abrir o menu de Liguas
+    public void OpenLingua()
+    {
+        // Desativa o menu de pausa
+        pauseMenu.SetActive(false);
+
+        // Ativa o menu de Linguas
+        LinguaMenu.SetActive(true);
+
+        // Define que o jogador está no menu de Linguas
+        isInLinguas = true;
+    }
+
     // Função para fechar o menu de opções
     public void CloseOptions()
     {
         // Desativa o menu de opções
         optionsMenu.SetActive(false);
 
-        // Ativa o menu de pausa
-        pauseMenu.SetActive(true);
+        
 
         // Define que o jogador não está mais no menu de opções
         isInOptions = false;
+        
     }
 
+    public void CloseLingua()
+    {
+        // Ativa o menu de pausa
+        LinguaMenu.SetActive(false);
+
+
+        // Define que o jogador não está mais no menu de opções
+        isInLinguas = false;
+
+    }
+
+    
     public void VoltarMenuPrincipal()
     {
         SceneManager.LoadScene("MenuPrincipal");

@@ -1,10 +1,10 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using Unity.Netcode;
 
 public class CharacterSelectReady : NetworkBehaviour
 {
-
+    
 
     public static CharacterSelectReady Instance { get; private set; }
 
@@ -66,5 +66,5 @@ public class CharacterSelectReady : NetworkBehaviour
     {
         return playerReadyDictionary.ContainsKey(clientId) && playerReadyDictionary[clientId];
     }
-
-}
+    
+}*/
