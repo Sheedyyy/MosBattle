@@ -22,7 +22,7 @@ public class MenuPausaManager : MonoBehaviour
         // Verifica se a tecla ESC foi pressionada
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            // Se o jogador não está no menu de opções
+            // Se o jogador não está no menu de opções ou de linguas
             if (!isInOptions || !isInLinguas)
             {
                 // Se o menu de pausa estiver ativo, desative-o e despausa o jogo
@@ -30,7 +30,6 @@ public class MenuPausaManager : MonoBehaviour
                 {
                     ContinueGame();
                 } 
-                
             
                 // Se estiver inativo, ative-o e pausa o jogo
                 else
@@ -85,8 +84,8 @@ public class MenuPausaManager : MonoBehaviour
     {
         // Desativa o menu de opções
         optionsMenu.SetActive(false);
+        Time.timeScale = 1;
 
-        
 
         // Define que o jogador não está mais no menu de opções
         isInOptions = false;
@@ -97,7 +96,7 @@ public class MenuPausaManager : MonoBehaviour
     {
         // Ativa o menu de pausa
         LinguaMenu.SetActive(false);
-
+        Time.timeScale = 1;
 
         // Define que o jogador não está mais no menu de opções
         isInLinguas = false;
