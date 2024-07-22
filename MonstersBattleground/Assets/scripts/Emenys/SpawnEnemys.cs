@@ -3,10 +3,10 @@ using UnityEngine;
 public class SpawnEnemiesOnCollision : MonoBehaviour
 {
     [SerializeField] private GameObject[] enemyPrefabs; // Array de diferentes inimigos
-    private float minX = -22f; // Posição mínima em X
-    private float maxX = 22f; // Posição máxima em X
-    private float minZ = 9f; // Posição mínima em Z
-    private float maxZ = 22f; // Posição máxima em Z
+    [SerializeField] private float minX; // Posição mínima em X
+    [SerializeField] private float maxX; // Posição máxima em X
+    [SerializeField] private float minZ; // Posição mínima em Z
+    [SerializeField] private float maxZ; // Posição máxima em Z
 
     private void OnTriggerEnter(Collider other)
     {
@@ -24,7 +24,7 @@ public class SpawnEnemiesOnCollision : MonoBehaviour
     {
         Vector3 spawnPosition = new Vector3(
             Random.Range(minX, maxX),
-            transform.position.y,
+            0f, // Defina a coordenada Y como 0 para que os inimigos sejam spawnados no chão
             Random.Range(minZ, maxZ)
         );
 
