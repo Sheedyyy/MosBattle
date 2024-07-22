@@ -22,6 +22,66 @@ MonoBehaviour:
     m_Localized: ' Quit '
     m_Metadata:
       m_Items: []
+  - m_Id: 355792939499520
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355796362051584
+    m_Localized: Portuguese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355896027103232
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367514404372480
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367623959592960
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367726652932096
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367862883926016
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370477864697856
+    m_Localized: Sensibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370481182392320
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370754651013120
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370872443846656
+    m_Localized: Full Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373480365604864
+    m_Localized: Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374185793011712
+    m_Localized: Host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374187604951040
+    m_Localized: Client
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374182911524864
+    m_Localized: Server
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
