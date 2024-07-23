@@ -40,6 +40,8 @@ public class EnemyBehavior : MonoBehaviour
         {
             target = closestPlayer.transform;
         }
+
+
     }
 
 }
