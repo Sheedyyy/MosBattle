@@ -1,7 +1,12 @@
+using Unity.Services.Lobbies.Models;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
+using UnityEditor.Localization.Plugins.XLIFF.V12;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyBehavior : MonoBehaviour
 {
+    public Transform Player;
     [SerializeField] private ZombieStats _zombieStats;
     private Transform target;
 
@@ -52,7 +57,20 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Player playerLife = collision.gameObject.GetComponent<Player>();
+            if (playerLife != null)
+            {
+                SceneManager.LoadScene("MenuGameOver");
+            }
+
+        }
+        } 
+
+        private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {

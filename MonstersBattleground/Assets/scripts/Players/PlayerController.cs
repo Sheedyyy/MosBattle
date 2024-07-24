@@ -23,6 +23,9 @@ public class PlayerController : NetworkBehaviour
     [SerializeField] private float _lookSenesitivity;
     [SerializeField] private Slider _lookSensitivitySlider;
 
+    [Header("morrer")]
+    [SerializeField] private Playerlife maxLife;
+
     private Vector2 lookVector;
     private Vector3 rotation;
 
@@ -44,23 +47,23 @@ public class PlayerController : NetworkBehaviour
     void Update()
     {
         Move();
-        //Rotate();
+        Rotate();
     }
 
-    
+
 
     public void OnMove(InputAction.CallbackContext context)
     {
         moveVector = context.ReadValue<Vector2>();
 
-       /* if (moveVector.magnitude > 0)
-        {
-            animator.SetBool("isWalking", true);
-        }
-        else
-        {
-            animator.SetBool("isWalking", false);
-        }*/
+        /* if (moveVector.magnitude > 0)
+         {
+             animator.SetBool("isWalking", true);
+         }
+         else
+         {
+             animator.SetBool("isWalking", false);
+         }*/
 
     }
 
@@ -80,7 +83,7 @@ public class PlayerController : NetworkBehaviour
     private void StartSprinting()
     {
         isSprinting = true;
-  
+
     }
 
     private void StopSprinting()
@@ -91,7 +94,7 @@ public class PlayerController : NetworkBehaviour
     #endregion
 
     #region Movimenta��o da camera do player
-    /*public void OnLook(InputAction.CallbackContext context)
+    public void OnLook(InputAction.CallbackContext context)
     {
         lookVector = context.ReadValue<Vector2>();
     }
@@ -118,10 +121,21 @@ public class PlayerController : NetworkBehaviour
     private void Jump()
     {
         _playerStatus.MoveSpeed = Mathf.Sqrt(_playerStatus.JumpHeight * _playerStatus.Gravity);
-    }*/
+    }
     #endregion
 
+    #region Morrer
+
+   /* public void TakeDamage(int damageAmount)
+    {
+        maxLife.value -= damageAmount;
+        if (maxLife.value <= 0)
+        {
+
+        }
 
 
+    }*/
+    #endregion
 }
 
