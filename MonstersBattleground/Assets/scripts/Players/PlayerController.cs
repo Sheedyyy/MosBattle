@@ -24,7 +24,7 @@ public class PlayerController : NetworkBehaviour
     [SerializeField] private Slider _lookSensitivitySlider;
 
     [Header("morrer")]
-    [SerializeField] private Playerlife maxLife;
+    [SerializeField] private ScriptableInt _maxLife;
 
     private Vector2 lookVector;
     private Vector3 rotation;
@@ -126,16 +126,21 @@ public class PlayerController : NetworkBehaviour
 
     #region Morrer
 
-   /* public void TakeDamage(int damageAmount)
+    private void Startup()
     {
-        maxLife.value -= damageAmount;
-        if (maxLife.value <= 0)
-        {
+        _maxLife.Value = 100;
+    }
 
+    public void TakeDamage(int _ZombieDamage)
+    {
+        _maxLife.Value -= _ZombieDamage;
+        if (_maxLife.Value <= 0)
+        {
+         Destroy(gameObject);
         }
 
 
-    }*/
+    }
     #endregion
 }
 

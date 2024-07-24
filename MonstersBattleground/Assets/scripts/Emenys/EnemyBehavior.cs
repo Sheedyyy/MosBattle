@@ -7,9 +7,14 @@ using UnityEngine.SceneManagement;
 public class EnemyBehavior : MonoBehaviour
 {
     public Transform Player;
+    public Transform Player2;
     [SerializeField] private ZombieStats _zombieStats;
     private Transform target;
 
+    private void Start()
+    {
+        Player = Player2;
+    }
     void Update()
     {
         FindClosestPlayer();
@@ -61,12 +66,13 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Player playerLife = collision.gameObject.GetComponent<Player>();
+            Player playerLife  = collision.gameObject.GetComponent<Player>();
             if (playerLife != null)
             {
                 SceneManager.LoadScene("MenuGameOver");
             }
 
+            
         }
         } 
 
