@@ -1,6 +1,4 @@
 using Unity.Services.Lobbies.Models;
-using Unity.VisualScripting.Antlr3.Runtime.Misc;
-using UnityEditor.Localization.Plugins.XLIFF.V12;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -71,16 +69,15 @@ public class EnemyBehavior : MonoBehaviour
             {
                 SceneManager.LoadScene("MenuGameOver");
             }
-
-            
         }
-        } 
+    }
 
-        private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("gun"))
         {
-            //other.GetComponent<>().TakeDamage(_zombieStats.ZombieDamage);
+            // Destruir o zumbi quando colidir com a arma
+            Destroy(gameObject);
         }
     }
 }
