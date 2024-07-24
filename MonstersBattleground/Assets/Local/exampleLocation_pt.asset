@@ -22,6 +22,150 @@ MonoBehaviour:
     m_Localized: ' Voltar'
     m_Metadata:
       m_Items: []
+  - m_Id: 355792939499520
+    m_Localized: Lingua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355796362051584
+    m_Localized: Portugues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355896027103232
+    m_Localized: Ingles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367514404372480
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367623959592960
+    m_Localized: "Op\xE7\xF5es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367726652932096
+    m_Localized: Menu Principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367862883926016
+    m_Localized: Pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370481182392320
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370477864697856
+    m_Localized: 'Sesitividade '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370754651013120
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370872443846656
+    m_Localized: Tela cheia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373480365604864
+    m_Localized: Mapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374182911524864
+    m_Localized: Servidor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374187604951040
+    m_Localized: Cliente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374185793011712
+    m_Localized: "Anfitri\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 651936307462144
+    m_Localized: Ganhaste!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 651939323166720
+    m_Localized: Jugar outra vez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 651940967333888
+    m_Localized: Fim do jogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 653465349373952
+    m_Localized: 'Monstros derrotados:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654869522661376
+    m_Localized: Multijugador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654872135712768
+    m_Localized: Um jugador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654874484523008
+    m_Localized: Sair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 655752243298304
+    m_Localized: Conectando...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 656086990700544
+    m_Localized: Mensagem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657165262372864
+    m_Localized: Criar um Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657167124643840
+    m_Localized: Nome do Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657459132088320
+    m_Localized: Publico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657168533929984
+    m_Localized: Privado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 658162919522304
+    m_Localized: Nome do Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659157229617152
+    m_Localized: Lista de Lobbys
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659284279279616
+    m_Localized: Codigo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659945456779264
+    m_Localized: A carregar...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666260170194944
+    m_Localized: "O anfitri\xE3o desconectou!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666920789852160
+    m_Localized: 'Codigo do Lobby: ASDF'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666918839500800
+    m_Localized: 'Nome do Lobby: LobbyName'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668549274517504
+    m_Localized: Pronto
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

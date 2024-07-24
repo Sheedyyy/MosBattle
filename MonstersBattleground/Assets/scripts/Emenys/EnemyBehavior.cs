@@ -42,4 +42,21 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
+    public void TakeDamage(float damage)
+    {
+        _zombieStats.ZombieLife -= damage;
+
+        if (_zombieStats.ZombieLife <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            //other.GetComponent<>().TakeDamage(_zombieStats.ZombieDamage);
+        }
+    }
 }

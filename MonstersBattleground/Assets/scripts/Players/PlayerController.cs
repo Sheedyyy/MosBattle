@@ -11,7 +11,7 @@ public class PlayerController : NetworkBehaviour
 
     [Header("Chamada dos scriptableObejects")]
     [SerializeField] private PlayerStatus _playerStatus;
-    [SerializeField]private InputPlayer inputPlayer;
+    [SerializeField] private InputPlayer inputPlayer;
 
     [Header("Movimenta��o do player")]
     private Vector2 moveVector;
@@ -44,7 +44,7 @@ public class PlayerController : NetworkBehaviour
     void Update()
     {
         Move();
-        Rotate();
+        //Rotate();
     }
 
     
@@ -91,7 +91,7 @@ public class PlayerController : NetworkBehaviour
     #endregion
 
     #region Movimenta��o da camera do player
-    public void OnLook(InputAction.CallbackContext context)
+    /*public void OnLook(InputAction.CallbackContext context)
     {
         lookVector = context.ReadValue<Vector2>();
     }
@@ -118,8 +118,10 @@ public class PlayerController : NetworkBehaviour
     private void Jump()
     {
         _playerStatus.MoveSpeed = Mathf.Sqrt(_playerStatus.JumpHeight * _playerStatus.Gravity);
-    }
+    }*/
     #endregion
+
+
 
 }
 

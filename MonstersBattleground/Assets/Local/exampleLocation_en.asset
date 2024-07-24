@@ -22,6 +22,150 @@ MonoBehaviour:
     m_Localized: ' Quit '
     m_Metadata:
       m_Items: []
+  - m_Id: 355792939499520
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355796362051584
+    m_Localized: Portuguese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355896027103232
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367514404372480
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367623959592960
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367726652932096
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367862883926016
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370477864697856
+    m_Localized: Sensibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370481182392320
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370754651013120
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370872443846656
+    m_Localized: Full Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373480365604864
+    m_Localized: Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374185793011712
+    m_Localized: Host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374187604951040
+    m_Localized: Client
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374182911524864
+    m_Localized: Server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 651936307462144
+    m_Localized: Win!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 651939323166720
+    m_Localized: Play Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 651940967333888
+    m_Localized: 'Game over '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 653465349373952
+    m_Localized: 'Defeated Monsters:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654874484523008
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654872135712768
+    m_Localized: Singleplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654869522661376
+    m_Localized: Multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 655752243298304
+    m_Localized: Connecting...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 656086990700544
+    m_Localized: Message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657165262372864
+    m_Localized: Create Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657167124643840
+    m_Localized: Lobby Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657168533929984
+    m_Localized: Private
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657459132088320
+    m_Localized: Public
+    m_Metadata:
+      m_Items: []
+  - m_Id: 658162919522304
+    m_Localized: PlayerName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659157229617152
+    m_Localized: Lobby List
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659284279279616
+    m_Localized: Code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659945456779264
+    m_Localized: Loading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666260170194944
+    m_Localized: Host has disconnected!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666918839500800
+    m_Localized: 'Lobby Name: LobbyName'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666920789852160
+    m_Localized: 'Lobby Code: ASDF'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668549274517504
+    m_Localized: Ready
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -16,7 +16,153 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: 021a0a43af6136340939ac8512693f57
   m_Entries:
   - m_Id: 24310562816
-    m_Key: Egsamplekey
+    m_Key: 'voltar
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355792939499520
+    m_Key: Lingua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355796362051584
+    m_Key: Portugues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355896027103232
+    m_Key: Ingles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367514404372480
+    m_Key: continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367623959592960
+    m_Key: Opcoes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367726652932096
+    m_Key: Menu Principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367862883926016
+    m_Key: Pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370477864697856
+    m_Key: Sesitividade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370481182392320
+    m_Key: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370754651013120
+    m_Key: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370872443846656
+    m_Key: Full Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 373480365604864
+    m_Key: Mapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374182911524864
+    m_Key: server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374185793011712
+    m_Key: Host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374187604951040
+    m_Key: Client
+    m_Metadata:
+      m_Items: []
+  - m_Id: 651936307462144
+    m_Key: Win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 651939323166720
+    m_Key: Play Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 651940967333888
+    m_Key: 'Game over '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 653465349373952
+    m_Key: 'Defeated Monsters:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654869522661376
+    m_Key: Multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654872135712768
+    m_Key: Singleplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654874484523008
+    m_Key: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 655752243298304
+    m_Key: Connecting...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 656086990700544
+    m_Key: Message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657165262372864
+    m_Key: Create Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657167124643840
+    m_Key: Lobby name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657168533929984
+    m_Key: Privado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 657459132088320
+    m_Key: Publico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 658162919522304
+    m_Key: PlayerName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659157229617152
+    m_Key: Lobby List
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659284279279616
+    m_Key: Code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659945456779264
+    m_Key: Loading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666260170194944
+    m_Key: Host has disconnected!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666918839500800
+    m_Key: 'Lobby Name: LobbyName'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 666920789852160
+    m_Key: 'Lobby Code: ASDF'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668549274517504
+    m_Key: Ready
     m_Metadata:
       m_Items: []
   m_Metadata:
