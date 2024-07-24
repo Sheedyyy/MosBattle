@@ -3382,6 +3382,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 663ce054d4dc8114baa7621841465c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 8353987478100597797, guid: 0de0698de691f9144a4cb8cce4666311, type: 3}
+  Player2: {fileID: 7135989987643094042, guid: d6536156be5c2c542bb635ec753508be, type: 3}
   _zombieStats: {fileID: 11400000, guid: bc8e018be5cbd794a9111cfa4fd8cb2c, type: 2}
 --- !u!82 &-2891253729675759064
 AudioSource:
