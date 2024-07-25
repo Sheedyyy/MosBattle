@@ -55,7 +55,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 370477864697856
-    m_Localized: 'Sesitividade '
+    m_Localized: Sesitividade do rato
     m_Metadata:
       m_Items: []
   - m_Id: 370754651013120
@@ -63,7 +63,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 370872443846656
-    m_Localized: Tela cheia
+    m_Localized: Full Screen
     m_Metadata:
       m_Items: []
   - m_Id: 373480365604864
@@ -99,11 +99,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 654869522661376
-    m_Localized: Multijugador
+    m_Localized: Multijogador
     m_Metadata:
       m_Items: []
   - m_Id: 654872135712768
-    m_Localized: Um jugador
+    m_Localized: Um jogador
     m_Metadata:
       m_Items: []
   - m_Id: 654874484523008
@@ -135,7 +135,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 658162919522304
-    m_Localized: Nome do Player
+    m_Localized: Nome do jogador
     m_Metadata:
       m_Items: []
   - m_Id: 659157229617152
